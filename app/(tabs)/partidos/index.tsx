@@ -1,12 +1,10 @@
 import { Text, View } from 'react-native';
 
 
-export default function HomeScreen() {
+export default function PartidoScreen() {
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text>Bienvenido al Prototipo de padel</Text>     
-      </View>
-  
+      <Text>Partido Actual</Text>
+    </View>
   );
 }
-
