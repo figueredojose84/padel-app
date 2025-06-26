@@ -2,7 +2,6 @@ import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function PartidoScreen() {
-  // Suponiendo que el equipo 1 es el que saca actualmente
   const equipoQueSaca = 1 as 1 | 2;
 
   return (
@@ -13,7 +12,6 @@ export default function PartidoScreen() {
         <Text style={styles.playerName}>JOSÉ FIGUEREDO</Text>
       </View>
 
-      {/* Marcador principal - ahora horizontal */}
       <View style={styles.horizontalScoreContainer}>
         {/* Equipo 1 */}
         <View style={[styles.teamScoreRow, equipoQueSaca === 1 && styles.servingTeamBorder]}>
